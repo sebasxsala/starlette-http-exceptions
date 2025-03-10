@@ -1,4 +1,5 @@
 from .main import (
+    HTTPException,
     BadRequestException,
     UnauthorizedException,
     ForbiddenException,
@@ -28,7 +29,25 @@ from .main import (
     UnavailableForLegalReasonsException,
 )
 
+from .ws_exceptions import (
+    WebSocketException,
+    WSProtocolError,
+    WSUnsupportedData,
+    WSNoStatusReceived,
+    WSAbnormalClosure,
+    WSBadGateway,
+    WSInternalError,
+    WSMessageTooBig,
+    WSInvalidFramePayloadData,
+    WSServiceRestart,
+    WSMandatoryExt,
+    WSPolicyViolation,
+    WSTLSHandshake,
+    WSTryAgainLater,
+)
+
 __all__ = [
+    "HTTPException",
     "BadRequestException",
     "UnauthorizedException",
     "ForbiddenException",
@@ -56,4 +75,18 @@ __all__ = [
     "TooManyRequestsException",
     "RequestHeaderFieldsTooLargeException",
     "UnavailableForLegalReasonsException",
+    "WebSocketException",
+    "WSProtocolError",
+    "WSUnsupportedData",
+    "WSNoStatusReceived",
+    "WSAbnormalClosure",
+    "WSBadGateway",
+    "WSInternalError",
+    "WSMessageTooBig",
+    "WSInvalidFramePayloadData",
+    "WSServiceRestart",
+    "WSMandatoryExt",
+    "WSPolicyViolation",
+    "WSTLSHandshake",
+    "WSTryAgainLater",
 ]
