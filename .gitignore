@@ -1,0 +1,7 @@
+dist
+.env*
+starlette_http_exceptions.egg-info/
+.venv/
+__pycache__/
+db/
+uv.lock
