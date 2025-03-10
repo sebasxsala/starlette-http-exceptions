@@ -1,6 +1,6 @@
 [project]
 name = "starlette-http-exceptions"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
   { name = "Sebastian Sala", email = "sebastian.sala.alanis@hotmail.com" },
 ]
@@ -20,5 +20,5 @@ dev = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/sebas-sala/yamlforge"
-"Bug Tracker" = "https://github.com/sebas-sala/yamlforge/issues"
+"Homepage" = "https://github.com/sebasxsala/starlette-http-exceptions"
+"Bug Tracker" = "https://github.com/sebasxsala/starlette-http-exceptions/issues"

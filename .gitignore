@@ -5,3 +5,5 @@ starlette_http_exceptions.egg-info/
 __pycache__/
 db/
 uv.lock
+.ruff_cache
+.pytest_cache
