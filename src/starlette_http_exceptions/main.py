@@ -5,6 +5,8 @@ from . import status
 
 
 class BaseHTTPException(HTTPException):
+    """Base class for all HTTP exceptions."""
+
     def __init__(
         self,
         status_code: int,
