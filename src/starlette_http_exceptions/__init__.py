@@ -1,4 +1,4 @@
-from .main import (
+from .http_exceptions import (
     HTTPException,
     BadRequestException,
     UnauthorizedException,
